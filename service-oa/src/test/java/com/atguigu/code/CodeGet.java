@@ -47,7 +47,7 @@ public class CodeGet {
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
         //表名
-        strategy.setInclude("sys_user");
+        strategy.setInclude("sys_menu","sys_role_menu");
 
         //去掉前缀
         strategy.setTablePrefix("wechat_");
