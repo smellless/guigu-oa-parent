@@ -21,6 +21,7 @@
         <module>commom/service-util</module>
         <module>model</module>
         <module>service-oa</module>
+        <module>commom/spring-security</module>
     </modules>
 
     <properties>
