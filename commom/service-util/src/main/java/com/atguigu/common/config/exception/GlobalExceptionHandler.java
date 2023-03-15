@@ -1,11 +1,11 @@
 package com.atguigu.common.config.exception;
 
 import com.atguigu.common.result.Result;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.nio.file.AccessDeniedException;
 
 /**
  * 全局异常处理类
